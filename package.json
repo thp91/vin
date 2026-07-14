@@ -1,0 +1,18 @@
+{
+  "name": "paris-wine-bars",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Annuaire des bars à vin de Paris (Google Places API)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "scrape": "node --env-file=.env.local scripts/scrape.mjs"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
